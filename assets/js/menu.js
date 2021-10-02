@@ -183,8 +183,8 @@ net();
 
 swal.fire({
 	title: '<%- success_msg %>',
-	icon: 'succes',
-	showCancelButton: true,
+	icon: 'warning',
+	showCancelButton: false,
 	cancelButtonText: `Close`,
 }).then((result) => {
 
