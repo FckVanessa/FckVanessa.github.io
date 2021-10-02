@@ -182,11 +182,10 @@ function net() {
 net();
 
 swal.fire({
-	title: 'do you want to play your own song from youtube?',
-	icon: 'warning',
+	title: '<%- success_msg %>',
+	icon: 'succes',
 	showCancelButton: true,
-	confirmButtonText: 'Yes',
-	cancelButtonText: `No`,
+	cancelButtonText: `Close`,
 }).then((result) => {
 
 	if (result.isConfirmed) {
